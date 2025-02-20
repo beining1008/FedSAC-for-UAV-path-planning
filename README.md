@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 To run the federated learning framework with best model selection strategy (default):
 ```bash
-python fedsac.py --strategy best_model
+python fedsac.py --strategy best_model  
 ```
 
 To run with traditional federated averaging and custom parameters:
@@ -27,9 +27,21 @@ python fedsac.py --strategy fed_avg --fed_num 8 --fed_round 15 --episode 30
 
 ## Detailed Information
 
-For detailed information about the methodology and technical approach, please refer to our paper:
 
-[Paper citation placeholder]
+If our code is helpful to you, please cite the corresponding reference. Additionally, we will release code for accelerated RL training based on the Flower framework in the future:
+
+@article{Huang2025TMC,
+  author = {Jun Huang and Beining Wu and Qiang Duan and Liang (Leon) Dong and Shui Yu},
+  title = {A Fast UAV Trajectory Planning Framework in RIS-assisted Communication Systems with Accelerated Learning via Multithreading and Federating},
+  journal = {IEEE Transactions on Mobile Computing},
+  year = {2025},
+  volume = {},
+  number = {},
+  pages = {},
+  keywords = {UAV, RIS, trajectory planning, reinforcement learning, training acceleration, federating},
+  doi = {10.1109/TMC.2025.3544903},
+  note = {Early Access}
+}
 
 ## Notes
 
