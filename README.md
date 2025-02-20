@@ -29,7 +29,7 @@ python fedsac.py --strategy fed_avg --fed_num 8 --fed_round 15 --episode 30
 
 
 If our code is helpful to you, please cite the corresponding reference. Additionally, we will release code for accelerated RL training based on the Flower framework in the future:
-
+```bash
 @article{Huang2025TMC,
   author = {Jun Huang and Beining Wu and Qiang Duan and Liang (Leon) Dong and Shui Yu},
   title = {A Fast UAV Trajectory Planning Framework in RIS-assisted Communication Systems with Accelerated Learning via Multithreading and Federating},
@@ -42,6 +42,7 @@ If our code is helpful to you, please cite the corresponding reference. Addition
   doi = {10.1109/TMC.2025.3544903},
   note = {Early Access}
 }
+```
 
 ## Notes
 
